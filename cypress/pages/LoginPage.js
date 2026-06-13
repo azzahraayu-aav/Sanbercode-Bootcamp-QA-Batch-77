@@ -5,9 +5,8 @@ class LoginPage {
 
     cy.url().should('include', '/auth/login')
 
-    cy.get('input[name="username"]', { timeout: 10000 })
-      .should('be.visible')
-}
+    cy.get('input[name="username"]', { timeout: 10000 }).should('be.visible')
+    }
 
     usernameField() {
         return cy.get('input[name="username"]')

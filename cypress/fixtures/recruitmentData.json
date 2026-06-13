@@ -1,0 +1,11 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+
+  "validCandidate": "Stacie Liu",
+  "invalidCandidate": "Gaada",
+
+  "firstName": "Azhray",
+  "lastName": "Ayv",
+  "email": "aav@mail.com"
+}
